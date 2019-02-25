@@ -3,13 +3,18 @@ THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offli
 
 ## THINGS TO DO
 [ ]	Remove annoying Header Bar
+
 [ ]	Suppress "Devdocs is running in Webveiw message"
+
 [ ]	Enable app cache to make the app know it can actually cache itself
 
 
 ## ORIGINAL SOURCE
 https://github.com/QuaestioOrg/kotlin-converted-webview/ast.
 ## License
+
 Licensed under the [Apache License, Version 2.0 (the "License")](http://www.apache.org/licenses/LICENSE-2.0); you may not use files of this sample except in compliance with its [License](/LICENSE).
+
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "as is" basis, without warranties or conditions of any kind, either express or implied.
+
 See the License for the specific language governing permissions and limitations under the License.
