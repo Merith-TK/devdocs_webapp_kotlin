@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DevDocs.io</string>
+    <string name="website_domain">devdocs.io</string>
+    <string name="website_url">https://devdocs.io</string>
+</resources>
