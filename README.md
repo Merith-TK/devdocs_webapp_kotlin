@@ -12,7 +12,7 @@ THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offli
 The current beta build is located in `/app/debug/app-debug.apk`
 
 ## ORIGINAL SOURCE
-https://github.com/QuaestioOrg/kotlin-converted-webview/ast.
+https://github.com/QuaestioOrg/kotlin-converted-webview/
 ## License
 
 Licensed under the [Apache License, Version 2.0 (the "License")](http://www.apache.org/licenses/LICENSE-2.0); you may not use files of this sample except in compliance with its [License](/LICENSE).
