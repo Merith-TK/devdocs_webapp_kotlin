@@ -2,9 +2,9 @@ I have utilized this guys source example template to make a kotlin version of th
 THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offline I know, but it will do. 
 
 ## THINGS TO DO
-~~~[ ]	Remove annoying Header Bar~~~
+~~~[X]	Remove annoying Header Bar~~~
 
-[ ]	Suppress "Devdocs is running in Webveiw message"
+~~~[X]	Suppress "Devdocs is running in Webveiw message"~~~
 
 [ ]	Enable app cache to make the app know it can actually cache itself
 

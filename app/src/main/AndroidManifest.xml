@@ -7,7 +7,7 @@
     
     <uses-feature
         android:name="android.hardware.touchscreen"
-        android:required="false" />
+        android:required="true" />
 
     <application
         android:allowBackup="false"
@@ -30,7 +30,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="quaestio.org"
+                    android:host="devdocs.io"
                     android:scheme="https" />
             </intent-filter>
         </activity>

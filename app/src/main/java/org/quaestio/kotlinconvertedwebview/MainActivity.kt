@@ -9,6 +9,9 @@ import android.view.KeyEvent
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import kotlinx.android.synthetic.main.activity_webview.*
+import android.webkit.WebSettings
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,6 +28,8 @@ class MainActivity : AppCompatActivity() {
         mWebView.loadUrl(getString(R.string.website_url))
         mWebView.webViewClient = HelloWebViewClient()
         WebView.setWebContentsDebuggingEnabled(false)
+        webview.getSettings().setUserAgentString("Merith-TK InAppBrowser");
+
 
     }
 
@@ -54,4 +59,19 @@ class MainActivity : AppCompatActivity() {
         return super.onKeyDown(keyCode, event)
     }
 
+    private fun enableHTML5AppCache() {
+
+        webview.getSettings().setDomStorageEnabled(true)
+
+        // Set cache size to 8 mb by default. should be more than enough
+        // webview.getSettings().setAppCacheMaxSize(1024 * 1024 * 8)
+
+        // This next one is crazy. It's the DEFAULT location for your app's cache
+        // But it didn't work for me without this line
+        webview.getSettings().setAppCachePath("/data/data/$packageName/cache")
+        webview.getSettings().setAllowFileAccess(true)
+        webview.getSettings().setAppCacheEnabled(true)
+
+        webview.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT)
+    }
 }
