@@ -1,4 +1,4 @@
-package org.quaestio.kotlinconvertedwebview
+package tk.merith.devdocs
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -45,7 +45,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         override fun onPageFinished(view: WebView, url: String) {
-            // TODO Auto-generated method stub
             super.onPageFinished(view, url)
         }
 
@@ -59,4 +58,5 @@ class MainActivity : AppCompatActivity() {
         return super.onKeyDown(keyCode, event)
     }
 
+    // TODO Configure AppCache
 }

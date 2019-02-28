@@ -1,6 +1,14 @@
 I have utilized this guys source example template to make a kotlin version of the Website https://devdocs.io
 THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offline I know, but it will do. 
 
+## IF YOU HAVE ISSUES WITH GRADLE
+	Go to the cloned repo, and delete `.idea` and `.gradle` and let Android-Studio rebuild these directories, 
+	This may require you to restart Android-Studio
+	
+	This project is being developed crossplatform from Win10 and ArchLinux, 
+	If you receive a folder error like `/home/nala/` or `C:\Users\Merith` does not exist,
+	you can safely ignore that.
+
 ## THINGS TO DO
 ~~~[X]	Remove annoying Header Bar~~~
 

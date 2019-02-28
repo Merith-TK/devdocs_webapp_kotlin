@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-kotlin-webview.iml" filepath="$PROJECT_DIR$/android-kotlin-webview.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/devdocs_webapp_kotlin.iml" filepath="$PROJECT_DIR$/devdocs_webapp_kotlin.iml" />
     </modules>
   </component>
 </project>
