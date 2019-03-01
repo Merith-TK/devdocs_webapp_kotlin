@@ -10,12 +10,19 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import kotlinx.android.synthetic.main.activity_webview.*
 import android.webkit.WebSettings
+import android.webkit.WebStorage
+import android.webkit.WebChromeClient
+
+
 
 
 
 class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetJavaScriptEnabled")
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -24,6 +31,29 @@ class MainActivity : AppCompatActivity() {
         val mWebView = findViewById<WebView>(R.id.webview)
 
         val webSettings = mWebView.settings
+//begin custom crap
+
+        mWebView.setWebChromeClient(object : WebChromeClient() {
+            override fun onReachedMaxAppCacheSize(spaceNeeded: Long, totalUsedQuota: Long,
+                                                  quotaUpdater: WebStorage.QuotaUpdater) {
+                quotaUpdater.updateQuota(spaceNeeded * 2)
+            }
+        })
+
+        mWebView.getSettings().setDomStorageEnabled(true)
+
+// Set cache size to 8 mb by default. should be more than enough
+        mWebView.getSettings().setAppCacheMaxSize(1024 * 1024 * 512)
+
+// This next one is crazy. It's the DEFAULT location for your app's cache
+// But it didn't work for me without this line.
+// UPDATE: no hardcoded path. Thanks to Kevin Hawkins
+        val appCachePath = applicationContext.cacheDir.absolutePath
+        mWebView.getSettings().setAppCachePath(appCachePath)
+        mWebView.getSettings().setAllowFileAccess(true)
+        mWebView.getSettings().setAppCacheEnabled(true)
+
+//end custom crap
         webSettings.javaScriptEnabled = true
         mWebView.loadUrl(getString(R.string.website_url))
         mWebView.webViewClient = HelloWebViewClient()
