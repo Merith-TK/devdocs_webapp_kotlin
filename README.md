@@ -9,6 +9,11 @@ THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offli
 	If you receive a folder error like `/home/nala/` or `C:\Users\Merith` does not exist,
 	you can safely ignore that.
 
+## CURRENT ISSUES
+	DOES NOT WORK OFFLINE AT ALL
+
+
+
 ## THINGS TO DO
 ~~~[X]	Remove annoying Header Bar~~~
 
