@@ -10,22 +10,19 @@ THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offli
 	you can safely ignore that.
 
 ## CURRENT ISSUES
-	DOES NOT WORK OFFLINE AT ALL
-
+None at the current moment in time
 
 
 ## THINGS TO DO
-~~~[X]	Remove annoying Header Bar~~~
-
-~~~[X]	Suppress "Devdocs is running in Webveiw message"~~~
-
-[ ]	Enable app cache to make the app know it can actually cache itself
-
-## BUILDS
-The current beta build is located in `/app/debug/app-debug.apk`
+### NOTHING!!! (until notified)
 
 ## ORIGINAL SOURCE
 https://github.com/QuaestioOrg/kotlin-converted-webview/
+
+Used because i had no clue how to start a webveiw in kotlin as the documentation seems rather...sparse for me.
+
+Who knows, may just be me.
+
 ## License
 
 Licensed under the [Apache License, Version 2.0 (the "License")](http://www.apache.org/licenses/LICENSE-2.0); you may not use files of this sample except in compliance with its [License](/LICENSE).
