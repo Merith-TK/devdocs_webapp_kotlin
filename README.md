@@ -17,7 +17,8 @@ None at the current moment in time
 
 
 ## THINGS TO DO
-### NOTHING!!! (until notified)
+* Fix issue where back button will suddenly close the app without warning
+* Allow swiping from the left to open the side panel
 
 ## ORIGINAL SOURCE
 https://github.com/QuaestioOrg/kotlin-converted-webview/
