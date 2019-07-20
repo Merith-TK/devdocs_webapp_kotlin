@@ -1,8 +1,8 @@
-I have utilized this guys source example template to make a kotlin version of the Website https://devdocs.io
-THIS WILL NOT BE OFFICIALLY SUPPORTED as it will use a webveiw, not truely offline I know, but it will do. 
 
 # WARNING!
-### THIS APP HAS ONLY BEEN OFFICIALLY TESTED ON ANDROID 8 OREO, IF IT WORKS ON YOUR VERSION OF ANDROID, SUBMIT A "Issue" SO THAT I CAN ADD THE VERSIONS TESTED
+_THIS APP HAS ONLY BEEN OFFICIALLY TESTED ON ANDROID 8 OREO, IF IT WORKS ON YOUR VERSION OF ANDROID, SUBMIT A "Issue" SO THAT I CAN ADD THE VERSIONS TESTED_
+
+I do not know why, but it doesn't work offline for Android 9/pie. Will look into this
 
 ## IF YOU HAVE ISSUES WITH GRADLE
 	Go to the cloned repo, and delete `.idea` and `.gradle` and let Android-Studio rebuild these directories, 
