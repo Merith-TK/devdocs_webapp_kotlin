@@ -13,8 +13,7 @@ I do not know why, but it doesn't work offline for Android 9/pie. Will look into
 	you can safely ignore that.
 
 ## CURRENT ISSUES
-None at the current moment in time
-
+* Recent versions of android do not load page for offline, 
 
 ## THINGS TO DO
 * Fix issue where back button will suddenly close the app without warning
